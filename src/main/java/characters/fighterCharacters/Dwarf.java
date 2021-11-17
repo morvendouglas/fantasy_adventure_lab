@@ -1,4 +1,12 @@
 package characters.fighterCharacters;
 
-public class Dwarf {
+import actions.attacks.Weapons;
+
+public class Dwarf extends FighterCharacter{
+
+
+    public Dwarf(String name, int wallet, int healthLevel, Weapons weapons) {
+        super(name, wallet, healthLevel, weapons);
+    }
+
 }
